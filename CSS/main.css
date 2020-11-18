@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+
+@font-face {
+    src: url("fonts/RecoletaRegular.otf");
+    font-family: recoleta;
+}
+
+body {
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 85px;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    font-size: large;
+    padding-bottom: 0;
+}
+
+.navbar-left {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, #23abd4, #23abd4 50%, black 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-left:before {
+    display: block;
+    content:'';
+    width: 0;
+    height: 3px;
+    bottom: 5px;
+    left: 0;
+    bottom: -3px;
+    z-index: 0;
+    position: absolute;
+    background: #23abd4;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-left:hover {
+    background-position: 0%;
+}
+
+.navbar-left:hover:before {
+    width: 100%;
+}
+
+.navbar-right {
+    float: right;
+}
+
+img {
+    height: 200px;
+    border: groove;
+    border-width: thick;
+    border-radius: 20%;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.skills {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: x-large;
+    font-family: 'Yeseva One', cursive;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.form-group {
+    width: 70%;
+}
+
+body {
+    margin-left: 15px;
+}
+
+.col-md-7 {
+    padding-left: 0;
+    font-size: xx-large;
+}
+
+p {
+    font-size: 16px;
+    margin: 0px;
+}
+
+.name {
+    font-size: 75px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.interests {
+    padding-top: 30px;
+}
+
+.education {
+    padding-top: 30px;
+}
+
+.card-img-top {
+    border: none;
+    border-radius: 0%;
+}
